@@ -1,2 +1,2 @@
 # gait-analyzer
-Proof of concept low cost wireless gait analyzer. This has 2 sensor modules, one right under the L4 vertebra to track changing hip movement and another on the side of the thigh. This is to measure basic hip flexion and extension.    
+Developed a proof-of-concept, low-cost wireless gait analyzer using two sensor modules: one positioned near the L4 vertebra to track hip movement and another on the thigh to capture leg motion. Designed to measure basic hip flexion and extension.”
