@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/OpenSim 4.5/sdk/include",
+                "C:/OpenSim 4.5/sdk/include/OpenSim",
+                "C:/OpenSim 4.5/sdk/include/tropter",
+                "C:/spdlog/include",
+                "C:/OpenSim 4.5/sdk/Simbody/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
