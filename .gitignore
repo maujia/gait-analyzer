@@ -1,0 +1,5 @@
+# ESP-IDF build outputs
+*/build/
+sdkconfig
+sdkconfig.old
+.vscode/
