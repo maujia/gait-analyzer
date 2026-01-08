@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Users\Arjun Standard\Documents\coding projects\Hardware Gait Analyzer\sender_firmware_blue\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\Arjun Standard\Documents\coding projects\gait-analyzer\sender_firmware_blue\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

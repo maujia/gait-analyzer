@@ -1,2 +1,2 @@
-source C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/bootloader/gdbinit/symbols
-source C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/bootloader/gdbinit/connect
+source C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/bootloader/gdbinit/symbols
+source C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/bootloader/gdbinit/connect

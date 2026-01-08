@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/build/bootloader/bootloader.elf
+file C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/build/bootloader/bootloader.elf

@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/sender_firmware_blue/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/sender_firmware_blue/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

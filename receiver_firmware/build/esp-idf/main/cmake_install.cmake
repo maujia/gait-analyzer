@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Arjun Standard/Documents/coding projects/Hardware Gait Analyzer/receiver_firmware/main
+# Install script for directory: C:/Users/Arjun Standard/Documents/coding projects/gait-analyzer/receiver_firmware/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

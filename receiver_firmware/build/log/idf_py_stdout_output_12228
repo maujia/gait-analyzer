@@ -1,0 +1,332 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.5.1/tools/idf_monitor.py -p COM27 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\Arjun Standard\Documents\coding projects\gait-analyzer\receiver_firmware\build\i2c-basic.elf C:\Users\Arjun Standard\Documents\coding projects\gait-analyzer\receiver_firmware\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:/Espressif/frameworks/esp-idf-v5.5.1/\tools\idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  3 2026 00:01:11[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18020h ( 98336) map[0m
+[0;32mI (122) esp_image: segment 1: paddr=00028048 vaddr=3ffb0000 size=03eech ( 16108) load[0m
+[0;32mI (128) esp_image: segment 2: paddr=0002bf3c vaddr=40080000 size=040dch ( 16604) load[0m
+[0;32mI (135) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=813a4h (529316) map[0m
+[0;32mI (316) esp_image: segment 4: paddr=000b13cc vaddr=400840dc size=13cd4h ( 81108) load[0m
+[0;32mI (347) esp_image: segment 5: paddr=000c50a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (359) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (359) boot: Disabling RNG early entropy source...[0m
+[0;32mI (370) cpu_start: Multicore app[0m
+[0;32mI (378) cpu_start: Pro cpu start user code[0m
+[0;32mI (378) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (378) app_init: Application information:[0m
+[0;32mI (378) app_init: Project name:     i2c-basic[0m
+[0;32mI (382) app_init: App version:      60972e7-dirty[0m
+[0;32mI (387) app_init: Compile time:     Jan  3 2026 00:00:40[0m
+[0;32mI (392) app_init: ELF file SHA256:  36742330a...[0m
+[0;32mI (396) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (400) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (404) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (408) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (412) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (418) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (423) heap_init: At 3FFB7FD0 len 00028030 (160 KiB): DRAM[0m
+[0;32mI (428) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (434) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (439) heap_init: At 40097DB0 len 00008250 (32 KiB): IRAM[0m
+[0;32mI (446) spi_flash: detected chip: generic[0m
+[0;32mI (448) spi_flash: flash io: dio[0m
+[0;33mW (451) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (464) main_task: Started on CPU0[0m
+[0;32mI (474) main_task: Calling app_main()[0m
+[0;32mI (504) wifi:wifi driver task: 3ffc10c0, prio:23, stack:6656, core=0[0m
+[0;32mI (514) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (514) wifi:wifi certification version: v7.0[0m
+[0;32mI (514) wifi:config NVS flash: enabled[0m
+[0;32mI (514) wifi:config nano formatting: disabled[0m
+[0;32mI (524) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (524) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (524) wifi:Init management short buffer num: 32[0m
+[0;32mI (534) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (534) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (544) wifi:Init static rx buffer num: 10[0m
+[0;32mI (544) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (554) wifi_init: rx ba win: 6[0m
+[0;32mI (554) wifi_init: accept mbox: 6[0m
+[0;32mI (554) wifi_init: tcpip mbox: 32[0m
+[0;32mI (554) wifi_init: udp mbox: 6[0m
+[0;32mI (564) wifi_init: tcp mbox: 6[0m
+[0;32mI (564) wifi_init: tcp tx win: 5760[0m
+[0;32mI (564) wifi_init: tcp rx win: 5760[0m
+[0;32mI (574) wifi_init: tcp mss: 1440[0m
+[0;32mI (574) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (574) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (584) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (664) wifi:mode : sta (ec:c9:ff:e2:8a:24)[0m
+[0;32mI (664) wifi:enable tsf[0m
+[0;32mI (664) RECEIVER: WiFi initialized (STA, channel 1)[0m
+[0;32mI (664) ESPNOW: espnow [version: 2.0] init[0m
+[0;32mI (664) RECEIVER: ESP-NOW initialized[0m
+[0;32mI (664) RECEIVER: Receiver ready - waiting for data...[0m
+RAW 2 159.64 17596
+[0;32mI (674) main_task: Returned from app_main()[0m
+RAW 2 160.40 17646
+RAW 2 159.31 17696
+RAW 2 158.61 17746
+RAW 2 158.56 17796
+RAW 2 158.95 17846
+RAW 2 159.59 17896
+RAW 2 159.85 17946
+RAW 2 158.87 17996
+RAW 2 158.58 18046
+RAW 2 159.30 18096
+RAW 2 159.69 18146
+RAW 2 159.56 18196
+RAW 2 159.86 18246
+RAW 2 159.88 18296
+RAW 2 160.75 18346
+RAW 2 160.53 18396
+RAW 2 159.93 18446
+RAW 2 160.23 18496
+RAW 2 160.31 18546
+RAW 2 160.23 18596
+RAW 2 160.19 18646
+RAW 2 159.20 18696
+RAW 2 159.32 18746
+RAW 2 160.24 18796
+RAW 2 160.06 18846
+RAW 2 160.09 18896
+RAW 2 160.14 18946
+RAW 2 159.40 18996
+RAW 2 159.83 19046
+RAW 2 160.51 19096
+RAW 2 159.93 19146
+RAW 2 160.27 19196
+RAW 2 160.34 19246
+RAW 2 160.25 19296
+RAW 2 159.54 19346
+RAW 2 159.34 19396
+RAW 2 159.85 19446
+RAW 2 158.63 19496
+RAW 2 158.71 19546
+RAW 2 158.91 19596
+RAW 2 159.16 19646
+RAW 2 159.30 19696
+RAW 2 158.80 19746
+RAW 2 158.15 19796
+RAW 2 157.98 19846
+RAW 2 158.86 19896
+RAW 2 159.02 19946
+RAW 2 159.30 19996
+RAW 2 159.88 20046
+RAW 2 158.88 20096
+RAW 2 158.14 20146
+RAW 2 157.62 20196
+RAW 2 157.48 20246
+RAW 2 157.54 20296
+RAW 2 157.28 20346
+RAW 2 157.45 20396
+RAW 2 158.27 20446
+RAW 2 158.36 20496
+RAW 2 158.63 20546
+RAW 2 158.61 20596
+RAW 2 159.17 20646
+RAW 2 160.21 20696
+RAW 2 159.42 20746
+RAW 2 158.05 20796
+RAW 2 157.71 20846
+RAW 2 158.24 20896
+RAW 2 158.69 20946
+RAW 2 159.00 20996
+RAW 2 158.00 21046
+RAW 2 157.58 21096
+RAW 2 157.54 21146
+RAW 2 158.69 21196
+RAW 2 158.74 21246
+RAW 2 158.85 21296
+RAW 2 157.85 21346
+RAW 2 157.37 21396
+RAW 2 157.42 21446
+RAW 2 157.80 21496
+RAW 2 158.31 21546
+RAW 2 158.59 21596
+RAW 2 158.68 21646
+RAW 2 158.32 21696
+RAW 2 159.16 21746
+RAW 2 160.32 21796
+RAW 2 160.53 21846
+RAW 2 159.49 21896
+RAW 2 159.34 21946
+RAW 2 160.21 21996
+RAW 2 160.00 22046
+RAW 2 159.75 22096
+RAW 2 159.31 22146
+RAW 2 159.43 22196
+RAW 2 159.30 22246
+RAW 2 159.82 22296
+RAW 2 159.83 22346
+RAW 2 159.92 22396
+RAW 2 158.89 22446
+RAW 2 158.93 22496
+RAW 2 158.44 22546
+RAW 2 158.79 22596
+RAW 2 157.70 22646
+RAW 2 157.52 22696
+RAW 2 157.96 22746
+RAW 2 159.13 22796
+RAW 2 158.60 22846
+RAW 2 158.68 22896
+RAW 2 158.92 22946
+RAW 2 158.81 22996
+RAW 2 158.51 23046
+RAW 2 158.74 23096
+RAW 2 159.96 23146
+RAW 2 159.40 23196
+RAW 2 159.54 23246
+RAW 2 159.79 23296
+RAW 2 159.97 23346
+RAW 2 160.22 23396
+RAW 2 160.07 23446
+RAW 2 160.73 23496
+RAW 2 159.92 23546
+RAW 2 159.23 23596
+RAW 2 158.64 23646
+RAW 2 158.21 23696
+RAW 2 158.89 23746
+RAW 2 159.44 23796
+RAW 2 159.45 23846
+RAW 2 158.72 23896
+RAW 2 158.91 23946
+RAW 2 157.49 23996
+RAW 2 157.34 24046
+RAW 2 158.15 24096
+RAW 2 158.00 24146
+RAW 2 158.36 24196
+RAW 2 159.80 24246
+RAW 2 160.29 24296
+RAW 2 159.49 24346
+RAW 2 160.08 24396
+RAW 2 160.15 24446
+RAW 2 159.82 24496
+RAW 2 158.60 24546
+RAW 2 158.62 24596
+RAW 2 158.67 24646
+RAW 2 157.87 24696
+RAW 2 157.54 24746
+RAW 2 158.12 24796
+RAW 2 157.89 24846
+RAW 2 158.60 24896
+RAW 2 158.03 24946
+RAW 2 157.71 24996
+RAW 2 157.82 25046
+RAW 2 158.61 25096
+RAW 2 158.60 25146
+RAW 2 158.84 25196
+RAW 2 159.08 25246
+RAW 2 160.26 25296
+RAW 2 160.05 25346
+RAW 2 158.83 25396
+RAW 2 158.78 25446
+RAW 2 159.80 25496
+RAW 2 158.82 25546
+RAW 2 158.48 25596
+RAW 2 159.10 25646
+RAW 2 158.79 25696
+RAW 2 159.40 25746
+RAW 2 160.20 25796
+RAW 2 159.38 25846
+RAW 2 159.67 25896
+RAW 2 159.57 25946
+RAW 2 160.07 25996
+RAW 2 158.92 26046
+RAW 2 159.19 26096
+RAW 2 159.98 26146
+RAW 2 160.12 26196
+RAW 2 160.09 26246
+RAW 2 160.78 26296
+RAW 2 160.09 26346
+RAW 2 160.59 26396
+RAW 2 160.35 26446
+RAW 2 160.35 26496
+RAW 2 159.14 26546
+RAW 2 159.10 26596
+RAW 2 159.24 26646
+RAW 2 159.38 26696
+RAW 2 159.27 26746
+RAW 2 158.62 26796
+RAW 2 158.91 26846
+RAW 2 159.27 26896
+RAW 2 160.52 26946
+RAW 2 160.66 26996
+RAW 2 161.74 27046
+RAW 2 162.23 27096
+RAW 2 161.51 27146
+RAW 2 161.07 27196
+RAW 2 160.95 27246
+RAW 2 160.44 27296
+RAW 2 159.90 27346
+RAW 2 159.17 27396
+RAW 2 159.03 27446
+RAW 2 159.33 27496
+RAW 2 158.94 27546
+RAW 2 159.53 27596
+RAW 2 158.69 27646
+RAW 2 158.59 27696
+RAW 2 159.75 27746
+RAW 2 160.08 27796
+RAW 2 159.02 27846
+RAW 2 158.70 27896
+RAW 2 158.99 27946
+RAW 2 157.57 27996
+RAW 2 157.48 28046
+RAW 2 157.09 28096
+RAW 2 157.21 28146
+RAW 2 158.07 28196
+RAW 2 158.37 28246
+RAW 2 157.97 28296
+RAW 2 158.21 28346
+RAW 2 158.59 28396
+RAW 2 158.42 28446
+RAW 2 159.34 28496
+RAW 2 160.25 28546
+RAW 2 160.00 28596
+RAW 2 159.95 28646
+RAW 2 159.06 28696
+RAW 2 158.49 28746
+RAW 2 158.34 28796
+RAW 2 158.84 28846
+RAW 2 160.11 28896
+RAW 2 159.73 28946
+RAW 2 159.92 28996
+RAW 2 160.83 29046
+RAW 2 160.97 29096
+RAW 2 161.81 29146
+RAW 2 161.32 29196
+RAW 2 161.57 29246
+RAW 2 160.53 29296
+RAW 2 160.32 29346
+RAW 2 161.09 29396
+RAW 2 161.56 29446
+RAW 2 161.44 29496
+RAW 2 161.34 29546
+RAW 2 161.81 29596
+RAW 2 161.02 29646
+RAW 2 160.86 29696
+RAW 2 161.35 29746
+RAW 2 161.93 29796
